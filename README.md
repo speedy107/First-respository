@@ -19,7 +19,9 @@ embedded GitHub preview.
 
 The first start downloads about 22 MB for the model and ONNX runtime.
 Thereafter Chrome can reuse cached files. All inference runs in the browser.
-The confidence slider controls which predictions are shown. **Choose photo**
+The confidence slider controls which predictions are shown. **Save frame**
+captures a raw, unannotated camera image for reviewing a mistake; it does not
+upload it. You can share that image for the next training update. **Choose photo**
 lets you test an image without starting the camera. The camera stops when you
 switch away from the page; tap Start camera again when you return.
 
@@ -49,16 +51,36 @@ Runtime assets are vendored from onnxruntime-web@1.20.1 on npm; its MIT license
 is included in vendor/ONNX-Runtime-LICENSE.txt. The model was trained using
 Ultralytics YOLO11; see https://www.ultralytics.com/license for its license.
 
-YOLO11 nano trained on 45 images extracted from phone videos for 80 epochs.
-Classes: blue_box and red_box. Eight held-out validation images were correctly
-classified; this small validation set does not establish real-world accuracy.
-Phone/browser runtime performance has not been tested.
+## Model v2: fewer background mistakes
+
+The original YOLO11 nano model was trained on 45 box images. V2 was fine-tuned
+for 24 epochs using those positives plus 57 reviewed background-only crops with
+people, chairs, bags, and room clutter. The eight held-out box images still
+produce correct labels. An additional 15 held-out backgrounds produce no boxes.
+
+In a same-input comparison on 108 reviewed training-source backgrounds, V1
+produced false positives on four images at confidence 0.35; V2 produced none.
+Many of these backgrounds were used to train V2, so this is a regression check,
+not an independent test of unfamiliar clothing or bags. The user's specific
+red-salwar and blue-bag examples still need to be supplied and tested.
+
+The final epoch-24 checkpoint passed fixed 320x320 and browser checks. The
+training runner's automatic best checkpoint did not pass a fixed-shape browser
+case and was not deployed. Fixed-square validation mAP50-95 is 83.3% on this
+small set; it does not establish real-world accuracy. Browser regression checks
+also covered sustained simulated camera frames, the four known mistakes, raw
+frame downloads, and camera release. Actual phone speed for V2 remains unmeasured.
+
+![Known background mistakes, before and after](false-positive-comparison.jpg)
+
+See [detailed comparison](background-comparison.json). Classes: blue_box and
+red_box. No sky class or physical dimension measurement is included.
 
 ## Downloads
 
 - [Trained model package](trained-box-model.zip): PyTorch weights, ONNX export,
   metrics, input/output specification, and inference instructions.
-- [YOLO dataset](yolo11-boxes-dataset.zip): 53 images with matching labels,
+- [YOLO dataset](yolo11-boxes-dataset.zip): 125 images with matching labels (including 72 background-only images),
   separate images/ and labels/ folders, and train/validation split lists.
 
 Open a ZIP file and use GitHub's Download raw file button to download it.

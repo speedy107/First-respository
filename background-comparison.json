@@ -1,0 +1,2254 @@
+{
+  "summary": {
+    "train": {
+      "reviewed_background_crops": 108,
+      "v1_false_positive_images_at_0_35": 4,
+      "v2_false_positive_images_at_0_35": 0,
+      "v1_false_positive_images_at_0_25": 5,
+      "v2_false_positive_images_at_0_25": 0
+    },
+    "val": {
+      "reviewed_background_crops": 15,
+      "v1_false_positive_images_at_0_35": 0,
+      "v2_false_positive_images_at_0_35": 0,
+      "v1_false_positive_images_at_0_25": 0,
+      "v2_false_positive_images_at_0_25": 0
+    }
+  },
+  "note": "Training-source backgrounds are diagnostic regressions; many were used to fine-tune V2. Held-out backgrounds are mostly plain and do not test the reported salwar/bag cases.",
+  "crops": [
+    {
+      "name": "blue_clip_01_frame_0002_negative_top",
+      "source_image": "blue/frames/clip_01/frame_0002.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        375
+      ],
+      "candidate_index": 1,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_01_frame_0002_negative_bottom",
+      "source_image": "blue/frames/clip_01/frame_0002.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        920,
+        640,
+        1148
+      ],
+      "candidate_index": 2,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_01_frame_0003_negative_top",
+      "source_image": "blue/frames/clip_01/frame_0003.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        410
+      ],
+      "candidate_index": 3,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_01_frame_0003_negative_bottom",
+      "source_image": "blue/frames/clip_01/frame_0003.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        987,
+        640,
+        1148
+      ],
+      "candidate_index": 4,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_01_frame_0005_negative_top",
+      "source_image": "blue/frames/clip_01/frame_0005.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        343
+      ],
+      "candidate_index": 5,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_01_frame_0007_negative_top",
+      "source_image": "blue/frames/clip_01/frame_0007.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        445
+      ],
+      "candidate_index": 6,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0002_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        362
+      ],
+      "candidate_index": 7,
+      "baseline_detections": [
+        {
+          "class_id": 0,
+          "confidence": 0.1744648814201355,
+          "box_xyxy": [
+            388.300048828125,
+            26.321197509765625,
+            487.876953125,
+            165.8477783203125
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.1744648814201355,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0002_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        955,
+        640,
+        1148
+      ],
+      "candidate_index": 8,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0003_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        477
+      ],
+      "candidate_index": 9,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0003_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        827,
+        640,
+        1148
+      ],
+      "candidate_index": 10,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0003_negative_left",
+      "source_image": "blue/frames/clip_02/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        183,
+        1148
+      ],
+      "candidate_index": 11,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0004_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        231
+      ],
+      "candidate_index": 12,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0004_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        770,
+        640,
+        1148
+      ],
+      "candidate_index": 13,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0005_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        273
+      ],
+      "candidate_index": 14,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0005_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        795,
+        640,
+        1148
+      ],
+      "candidate_index": 15,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0005_negative_right",
+      "source_image": "blue/frames/clip_02/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        457,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 16,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0006_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        512
+      ],
+      "candidate_index": 17,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0007_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        445
+      ],
+      "candidate_index": 18,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0007_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        767,
+        640,
+        1148
+      ],
+      "candidate_index": 19,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0007_negative_left",
+      "source_image": "blue/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        206,
+        1148
+      ],
+      "candidate_index": 20,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0007_negative_right",
+      "source_image": "blue/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        476,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 21,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0008_negative_top",
+      "source_image": "blue/frames/clip_02/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        477
+      ],
+      "candidate_index": 22,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0008_negative_bottom",
+      "source_image": "blue/frames/clip_02/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        799,
+        640,
+        1148
+      ],
+      "candidate_index": 23,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_02_frame_0008_negative_left",
+      "source_image": "blue/frames/clip_02/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        228,
+        1148
+      ],
+      "candidate_index": 24,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0001_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        359
+      ],
+      "candidate_index": 25,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0001_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        795,
+        640,
+        1148
+      ],
+      "candidate_index": 26,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0002_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        452
+      ],
+      "candidate_index": 27,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0002_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        904,
+        640,
+        1148
+      ],
+      "candidate_index": 28,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0002_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        457,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 29,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0003_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        404
+      ],
+      "candidate_index": 30,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0003_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        930,
+        640,
+        1148
+      ],
+      "candidate_index": 31,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0003_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        444,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 32,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0004_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        544
+      ],
+      "candidate_index": 33,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0004_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        904,
+        640,
+        1148
+      ],
+      "candidate_index": 34,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0004_negative_left",
+      "source_image": "blue/frames/clip_03/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        180,
+        1148
+      ],
+      "candidate_index": 35,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0004_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        463,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 36,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0005_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        343
+      ],
+      "candidate_index": 37,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0005_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        783,
+        640,
+        1148
+      ],
+      "candidate_index": 38,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0005_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        434,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 39,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0006_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        439
+      ],
+      "candidate_index": 40,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0006_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        815,
+        640,
+        1148
+      ],
+      "candidate_index": 41,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0006_negative_left",
+      "source_image": "blue/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        180,
+        1148
+      ],
+      "candidate_index": 42,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0006_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        498,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 43,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0007_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        618
+      ],
+      "candidate_index": 44,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.6931341886520386,
+          "box_xyxy": [
+            478.4139099121094,
+            373.3984375,
+            639.8492431640625,
+            603.7799072265625
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.6931341886520386,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0007_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        1007,
+        640,
+        1148
+      ],
+      "candidate_index": 45,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0007_negative_left",
+      "source_image": "blue/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        164,
+        1148
+      ],
+      "candidate_index": 46,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0007_negative_right",
+      "source_image": "blue/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        463,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 47,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0008_negative_top",
+      "source_image": "blue/frames/clip_03/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        362
+      ],
+      "candidate_index": 48,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.2018919289112091,
+          "box_xyxy": [
+            318.02734375,
+            118.30047607421875,
+            638.0216064453125,
+            362.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.2018919289112091,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0008_negative_bottom",
+      "source_image": "blue/frames/clip_03/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        706,
+        640,
+        1148
+      ],
+      "candidate_index": 49,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_03_frame_0008_negative_left",
+      "source_image": "blue/frames/clip_03/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        209,
+        1148
+      ],
+      "candidate_index": 50,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0001_negative_top",
+      "source_image": "blue/frames/clip_04/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        349
+      ],
+      "candidate_index": 51,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0001_negative_bottom",
+      "source_image": "blue/frames/clip_04/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        831,
+        640,
+        1148
+      ],
+      "candidate_index": 52,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0003_negative_top",
+      "source_image": "blue/frames/clip_04/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        439
+      ],
+      "candidate_index": 53,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0003_negative_bottom",
+      "source_image": "blue/frames/clip_04/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        1003,
+        640,
+        1148
+      ],
+      "candidate_index": 54,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0004_negative_top",
+      "source_image": "blue/frames/clip_04/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        397
+      ],
+      "candidate_index": 55,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0004_negative_bottom",
+      "source_image": "blue/frames/clip_04/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        962,
+        640,
+        1148
+      ],
+      "candidate_index": 56,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0005_negative_top",
+      "source_image": "blue/frames/clip_04/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        410
+      ],
+      "candidate_index": 57,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0005_negative_bottom",
+      "source_image": "blue/frames/clip_04/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        991,
+        640,
+        1148
+      ],
+      "candidate_index": 58,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_04_frame_0007_negative_top",
+      "source_image": "blue/frames/clip_04/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        442
+      ],
+      "candidate_index": 59,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0001_negative_top",
+      "source_image": "blue/frames/clip_05/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        333
+      ],
+      "candidate_index": 60,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.14783963561058044,
+          "box_xyxy": [
+            401.5703430175781,
+            0.0,
+            632.15283203125,
+            329.385986328125
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.14783963561058044,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0001_negative_bottom",
+      "source_image": "blue/frames/clip_05/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        863,
+        640,
+        1148
+      ],
+      "candidate_index": 61,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0001_negative_left",
+      "source_image": "blue/frames/clip_05/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        199,
+        1148
+      ],
+      "candidate_index": 62,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0004_negative_top",
+      "source_image": "blue/frames/clip_05/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        349
+      ],
+      "candidate_index": 63,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0006_negative_top",
+      "source_image": "blue/frames/clip_05/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        327
+      ],
+      "candidate_index": 65,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0006_negative_bottom",
+      "source_image": "blue/frames/clip_05/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        856,
+        640,
+        1148
+      ],
+      "candidate_index": 66,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.15241776406764984,
+          "box_xyxy": [
+            511.65283203125,
+            0.0,
+            632.777099609375,
+            292.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.15241776406764984,
+      "status": "visually_reviewed_background",
+      "v2_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.10893629491329193,
+          "box_xyxy": [
+            531.0372314453125,
+            0.0,
+            623.703857421875,
+            292.0
+          ]
+        }
+      ],
+      "v2_max_confidence": 0.10893629491329193
+    },
+    {
+      "name": "blue_clip_05_frame_0007_negative_top",
+      "source_image": "blue/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        397
+      ],
+      "candidate_index": 67,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.1055963858962059,
+          "box_xyxy": [
+            404.24285888671875,
+            323.3134765625,
+            533.9488525390625,
+            397.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.1055963858962059,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "blue_clip_05_frame_0007_negative_bottom",
+      "source_image": "blue/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        811,
+        640,
+        1148
+      ],
+      "candidate_index": 68,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0001_negative_top",
+      "source_image": "red/frames/clip_01/frame_0001.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        365
+      ],
+      "candidate_index": 69,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0001_negative_bottom",
+      "source_image": "red/frames/clip_01/frame_0001.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        959,
+        640,
+        1148
+      ],
+      "candidate_index": 70,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0004_negative_top",
+      "source_image": "red/frames/clip_01/frame_0004.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        404
+      ],
+      "candidate_index": 71,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0004_negative_bottom",
+      "source_image": "red/frames/clip_01/frame_0004.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        856,
+        640,
+        1148
+      ],
+      "candidate_index": 72,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0005_negative_top",
+      "source_image": "red/frames/clip_01/frame_0005.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        416
+      ],
+      "candidate_index": 73,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0005_negative_bottom",
+      "source_image": "red/frames/clip_01/frame_0005.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        872,
+        640,
+        1148
+      ],
+      "candidate_index": 74,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0005_negative_left",
+      "source_image": "red/frames/clip_01/frame_0005.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        186,
+        1148
+      ],
+      "candidate_index": 75,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0006_negative_top",
+      "source_image": "red/frames/clip_01/frame_0006.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        378
+      ],
+      "candidate_index": 76,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_01_frame_0006_negative_bottom",
+      "source_image": "red/frames/clip_01/frame_0006.jpg",
+      "split": "val",
+      "crop_xyxy": [
+        0,
+        786,
+        640,
+        1148
+      ],
+      "candidate_index": 77,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0001_negative_top",
+      "source_image": "red/frames/clip_02/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        346
+      ],
+      "candidate_index": 78,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0001_negative_bottom",
+      "source_image": "red/frames/clip_02/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        872,
+        640,
+        1148
+      ],
+      "candidate_index": 79,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0003_negative_top",
+      "source_image": "red/frames/clip_02/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        388
+      ],
+      "candidate_index": 80,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0003_negative_bottom",
+      "source_image": "red/frames/clip_02/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        917,
+        640,
+        1148
+      ],
+      "candidate_index": 81,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0004_negative_top",
+      "source_image": "red/frames/clip_02/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        394
+      ],
+      "candidate_index": 82,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0004_negative_bottom",
+      "source_image": "red/frames/clip_02/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        783,
+        640,
+        1148
+      ],
+      "candidate_index": 83,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0004_negative_right",
+      "source_image": "red/frames/clip_02/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        402,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 84,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0005_negative_top",
+      "source_image": "red/frames/clip_02/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        359
+      ],
+      "candidate_index": 85,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0005_negative_bottom",
+      "source_image": "red/frames/clip_02/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        936,
+        640,
+        1148
+      ],
+      "candidate_index": 86,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0007_negative_top",
+      "source_image": "red/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        535
+      ],
+      "candidate_index": 87,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.7311665415763855,
+          "box_xyxy": [
+            0.13938140869140625,
+            439.4296569824219,
+            94.77462005615234,
+            535.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "confidence": 0.10244615375995636,
+          "box_xyxy": [
+            199.02206420898438,
+            393.661865234375,
+            328.2699279785156,
+            535.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.7311665415763855,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_02_frame_0007_negative_right",
+      "source_image": "red/frames/clip_02/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        473,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 88,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0001_negative_top",
+      "source_image": "red/frames/clip_03/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        468
+      ],
+      "candidate_index": 89,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0003_negative_top",
+      "source_image": "red/frames/clip_03/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        416
+      ],
+      "candidate_index": 90,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0003_negative_bottom",
+      "source_image": "red/frames/clip_03/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        904,
+        640,
+        1148
+      ],
+      "candidate_index": 91,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0006_negative_top",
+      "source_image": "red/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        480
+      ],
+      "candidate_index": 92,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.553505539894104,
+          "box_xyxy": [
+            0.0,
+            300.09417724609375,
+            125.76868438720703,
+            480.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.553505539894104,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0006_negative_bottom",
+      "source_image": "red/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        943,
+        640,
+        1148
+      ],
+      "candidate_index": 93,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0006_negative_right",
+      "source_image": "red/frames/clip_03/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        473,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 94,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0007_negative_top",
+      "source_image": "red/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        375
+      ],
+      "candidate_index": 95,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.4380379021167755,
+          "box_xyxy": [
+            0.0,
+            283.73297119140625,
+            103.03300476074219,
+            375.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.4380379021167755,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0007_negative_bottom",
+      "source_image": "red/frames/clip_03/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        917,
+        640,
+        1148
+      ],
+      "candidate_index": 96,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0008_negative_top",
+      "source_image": "red/frames/clip_03/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        340
+      ],
+      "candidate_index": 97,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_03_frame_0008_negative_bottom",
+      "source_image": "red/frames/clip_03/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        869,
+        640,
+        1148
+      ],
+      "candidate_index": 98,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0001_negative_top",
+      "source_image": "red/frames/clip_04/frame_0001.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        436
+      ],
+      "candidate_index": 99,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0003_negative_top",
+      "source_image": "red/frames/clip_04/frame_0003.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        436
+      ],
+      "candidate_index": 100,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0004_negative_top",
+      "source_image": "red/frames/clip_04/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        215
+      ],
+      "candidate_index": 101,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0004_negative_bottom",
+      "source_image": "red/frames/clip_04/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        722,
+        640,
+        1148
+      ],
+      "candidate_index": 102,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0006_negative_top",
+      "source_image": "red/frames/clip_04/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        359
+      ],
+      "candidate_index": 103,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0006_negative_bottom",
+      "source_image": "red/frames/clip_04/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        728,
+        640,
+        1148
+      ],
+      "candidate_index": 104,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0006_negative_right",
+      "source_image": "red/frames/clip_04/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        476,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 105,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_04_frame_0008_negative_top",
+      "source_image": "red/frames/clip_04/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        407
+      ],
+      "candidate_index": 106,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0002_negative_top",
+      "source_image": "red/frames/clip_05/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        493
+      ],
+      "candidate_index": 107,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.34950658679008484,
+          "box_xyxy": [
+            500.73663330078125,
+            192.669189453125,
+            640.0,
+            363.016357421875
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.34950658679008484,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0002_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        965,
+        640,
+        1148
+      ],
+      "candidate_index": 108,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0002_negative_left",
+      "source_image": "red/frames/clip_05/frame_0002.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        206,
+        1148
+      ],
+      "candidate_index": 109,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0004_negative_top",
+      "source_image": "red/frames/clip_05/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        452
+      ],
+      "candidate_index": 110,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0004_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        933,
+        640,
+        1148
+      ],
+      "candidate_index": 111,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0004_negative_left",
+      "source_image": "red/frames/clip_05/frame_0004.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        145,
+        1148
+      ],
+      "candidate_index": 112,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0005_negative_top",
+      "source_image": "red/frames/clip_05/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        330
+      ],
+      "candidate_index": 113,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0005_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0005.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        802,
+        640,
+        1148
+      ],
+      "candidate_index": 114,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0006_negative_top",
+      "source_image": "red/frames/clip_05/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        452
+      ],
+      "candidate_index": 115,
+      "baseline_detections": [
+        {
+          "class_id": 1,
+          "confidence": 0.1774892359972,
+          "box_xyxy": [
+            94.63667297363281,
+            341.5223388671875,
+            210.6472930908203,
+            452.0
+          ]
+        }
+      ],
+      "baseline_max_confidence": 0.1774892359972,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0006_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        760,
+        640,
+        1148
+      ],
+      "candidate_index": 116,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0006_negative_left",
+      "source_image": "red/frames/clip_05/frame_0006.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        324,
+        1148
+      ],
+      "candidate_index": 117,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0007_negative_top",
+      "source_image": "red/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        346
+      ],
+      "candidate_index": 118,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0007_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        623,
+        640,
+        1148
+      ],
+      "candidate_index": 119,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0007_negative_left",
+      "source_image": "red/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        170,
+        1148
+      ],
+      "candidate_index": 120,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0007_negative_right",
+      "source_image": "red/frames/clip_05/frame_0007.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        428,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 121,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0008_negative_top",
+      "source_image": "red/frames/clip_05/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        410
+      ],
+      "candidate_index": 122,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0008_negative_bottom",
+      "source_image": "red/frames/clip_05/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        709,
+        640,
+        1148
+      ],
+      "candidate_index": 123,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    },
+    {
+      "name": "red_clip_05_frame_0008_negative_right",
+      "source_image": "red/frames/clip_05/frame_0008.jpg",
+      "split": "train",
+      "crop_xyxy": [
+        447,
+        0,
+        640,
+        1148
+      ],
+      "candidate_index": 124,
+      "baseline_detections": [],
+      "baseline_max_confidence": 0,
+      "status": "visually_reviewed_background",
+      "v2_detections": [],
+      "v2_max_confidence": 0
+    }
+  ]
+}

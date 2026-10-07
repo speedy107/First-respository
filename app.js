@@ -13,7 +13,7 @@ async function loadModel(){
   ort.env.wasm.numThreads=1;ort.env.wasm.proxy=false;
   ort.env.wasm.wasmPaths=new URL('./vendor/',location.href).href;
   status('Downloading the model…');
-  const response=await fetch(new URL('./models/boxes-yolo11n.onnx',location.href));
+  const response=await fetch(new URL('./models/boxes-yolo11n.onnx?v=2',location.href));
   if(!response.ok)throw new Error(`Model download failed (${response.status}). Try reloading.`);
   const bytes=await response.arrayBuffer();status('Preparing the model on your device…');
   return await ort.InferenceSession.create(bytes,{executionProviders:['wasm'],graphOptimizationLevel:'all'});
@@ -25,7 +25,7 @@ function setView(source,width,height,label){
  $('viewer').style.marginInline='auto';
  overlay.width=width;overlay.height=height;overlay.hidden=false;
  $('placeholder').hidden=true;video.hidden=source!=='video';photo.hidden=source!=='photo';
- $('viewBadge').hidden=false;$('viewBadge').textContent=label;
+ $('viewBadge').hidden=false;$('viewBadge').textContent=label;$('saveFrame').disabled=false;
 }
 function paint(boxes,width,height,elapsed){
  context.clearRect(0,0,width,height);
@@ -53,7 +53,7 @@ async function infer(source,width,height){
 function stopCamera(message='Camera stopped.'){
  running=false;generation++;if(stream)stream.getTracks().forEach(track=>track.stop());
  stream=null;video.srcObject=null;$('start').disabled=false;$('stop').disabled=true;
- if(!currentPhoto){video.hidden=true;overlay.hidden=true;$('placeholder').hidden=false;$('viewBadge').hidden=true;$('detections').textContent='No feed yet';$('timing').textContent='';}
+ if(!currentPhoto){video.hidden=true;overlay.hidden=true;$('placeholder').hidden=false;$('viewBadge').hidden=true;$('detections').textContent='No feed yet';$('timing').textContent='';$('saveFrame').disabled=true;}
  status(message);
 }
 async function cameraLoop(token){
@@ -108,3 +108,17 @@ $('confidence').addEventListener('input',()=>{$('confidenceValue').textContent=`
 $('confidence').addEventListener('change',()=>{if(currentPhoto)analyzePhoto();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&running)stopCamera('Camera paused while the page was hidden. Tap Start camera to resume.');});
 window.addEventListener('pagehide',()=>{if(stream)stream.getTracks().forEach(track=>track.stop());});
+
+$('saveFrame').addEventListener('click',()=>{
+ const source=running&&video.readyState>=2?video:currentPhoto?photo:null;
+ if(!source)return;
+ const width=source===video?video.videoWidth:photo.width,height=source===video?video.videoHeight:photo.height;
+ const frame=document.createElement('canvas');frame.width=width;frame.height=height;
+ frame.getContext('2d').drawImage(source,0,0,width,height);
+ frame.toBlob(blob=>{
+  if(!blob){status('Could not save this frame. Please try again.',true);return;}
+  const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;
+  link.download=`box-example-${Date.now()}.jpg`;document.body.append(link);link.click();link.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),30000);
+ },'image/jpeg',.92);
+});
