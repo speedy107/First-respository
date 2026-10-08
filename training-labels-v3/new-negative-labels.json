@@ -1,0 +1,182 @@
+[
+  {
+    "image": "new-examples-v3/1-IMG_20261007_202141.jpg",
+    "source_image": "new-examples-v3/1-IMG_20261007_202141.jpg",
+    "export_name": "new_v3_negative_bag_context",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_photo",
+    "crop_xyxy": [
+      0,
+      0,
+      600,
+      720
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/1-IMG_20261007_202141.jpg",
+    "source_image": "new-examples-v3/1-IMG_20261007_202141.jpg",
+    "export_name": "new_v3_negative_bag_close",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_photo",
+    "crop_xyxy": [
+      85,
+      80,
+      552,
+      666
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_001.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_001.jpg",
+    "export_name": "new_v3_negative_salwar_only_001",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      250,
+      110,
+      750,
+      1120
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_002.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_002.jpg",
+    "export_name": "new_v3_negative_salwar_only_002",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      300,
+      150,
+      790,
+      1120
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_003.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_003.jpg",
+    "export_name": "new_v3_negative_salwar_only_003",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      200,
+      600,
+      730,
+      1010
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_004.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_004.jpg",
+    "export_name": "new_v3_negative_salwar_only_004",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      150,
+      480,
+      700,
+      880
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_005.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_005.jpg",
+    "export_name": "new_v3_negative_salwar_only_005",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      380,
+      250,
+      960,
+      930
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_006.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_006.jpg",
+    "export_name": "new_v3_negative_salwar_only_006",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      430,
+      110,
+      960,
+      860
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_007.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_007.jpg",
+    "export_name": "new_v3_negative_salwar_only_007",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      440,
+      0,
+      960,
+      835
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_008.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_008.jpg",
+    "export_name": "new_v3_negative_salwar_only_008",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      490,
+      180,
+      960,
+      795
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_009.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_009.jpg",
+    "export_name": "new_v3_negative_salwar_only_009",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      600,
+      160,
+      960,
+      790
+    ],
+    "status": "manually_reviewed_background"
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_010.jpg",
+    "source_image": "new-examples-v3/frames/video_frame_010.jpg",
+    "export_name": "new_v3_negative_salwar_only_010",
+    "split": "train",
+    "class_id": null,
+    "source_group": "new_v3_video",
+    "crop_xyxy": [
+      580,
+      230,
+      960,
+      800
+    ],
+    "status": "manually_reviewed_background"
+  }
+]

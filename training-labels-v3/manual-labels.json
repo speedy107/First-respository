@@ -1,0 +1,200 @@
+[
+  {
+    "image": "new-examples-v3/1-IMG_20261007_202141.jpg",
+    "export_name": "new_v3_bag_and_blue_box",
+    "class_id": 0,
+    "box_xyxy": [
+      697,
+      174,
+      1188,
+      663
+    ],
+    "split": "train",
+    "source_group": "new_v3_photo",
+    "status": "manually_reviewed",
+    "image_size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_001.jpg",
+    "export_name": "new_v3_salwar_red_box_001",
+    "class_id": 1,
+    "box_xyxy": [
+      494,
+      1169,
+      960,
+      1694
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_002.jpg",
+    "export_name": "new_v3_salwar_red_box_002",
+    "class_id": 1,
+    "box_xyxy": [
+      497,
+      1162,
+      960,
+      1692
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_003.jpg",
+    "export_name": "new_v3_salwar_red_box_003",
+    "class_id": 1,
+    "box_xyxy": [
+      432,
+      1042,
+      943,
+      1591
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_004.jpg",
+    "export_name": "new_v3_salwar_red_box_004",
+    "class_id": 1,
+    "box_xyxy": [
+      406,
+      922,
+      934,
+      1454
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_005.jpg",
+    "export_name": "new_v3_salwar_red_box_005",
+    "class_id": 1,
+    "box_xyxy": [
+      528,
+      972,
+      960,
+      1584
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_006.jpg",
+    "export_name": "new_v3_salwar_red_box_006",
+    "class_id": 1,
+    "box_xyxy": [
+      382,
+      912,
+      881,
+      1529
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_007.jpg",
+    "export_name": "new_v3_salwar_red_box_007",
+    "class_id": 1,
+    "box_xyxy": [
+      58,
+      871,
+      715,
+      1548
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_008.jpg",
+    "export_name": "new_v3_salwar_red_box_008",
+    "class_id": 1,
+    "box_xyxy": [
+      96,
+      842,
+      739,
+      1534
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_009.jpg",
+    "export_name": "new_v3_salwar_red_box_009",
+    "class_id": 1,
+    "box_xyxy": [
+      106,
+      811,
+      631,
+      1450
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  },
+  {
+    "image": "new-examples-v3/frames/video_frame_010.jpg",
+    "export_name": "new_v3_salwar_red_box_010",
+    "class_id": 1,
+    "box_xyxy": [
+      113,
+      833,
+      636,
+      1421
+    ],
+    "split": "train",
+    "source_group": "new_v3_video",
+    "status": "manually_reviewed",
+    "image_size": [
+      960,
+      1708
+    ]
+  }
+]

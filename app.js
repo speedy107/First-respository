@@ -13,7 +13,7 @@ async function loadModel(){
   ort.env.wasm.numThreads=1;ort.env.wasm.proxy=false;
   ort.env.wasm.wasmPaths=new URL('./vendor/',location.href).href;
   status('Downloading the model…');
-  const response=await fetch(new URL('./models/boxes-yolo11n.onnx?v=2',location.href));
+  const response=await fetch(new URL('./models/boxes-yolo11n.onnx?v=3',location.href));
   if(!response.ok)throw new Error(`Model download failed (${response.status}). Try reloading.`);
   const bytes=await response.arrayBuffer();status('Preparing the model on your device…');
   return await ort.InferenceSession.create(bytes,{executionProviders:['wasm'],graphOptimizationLevel:'all'});

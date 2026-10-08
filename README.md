@@ -51,36 +51,59 @@ Runtime assets are vendored from onnxruntime-web@1.20.1 on npm; its MIT license
 is included in vendor/ONNX-Runtime-LICENSE.txt. The model was trained using
 Ultralytics YOLO11; see https://www.ultralytics.com/license for its license.
 
-## Model v2: fewer background mistakes
+## Model v3: blue bag and red-clothing examples
 
-The original YOLO11 nano model was trained on 45 box images. V2 was fine-tuned
-for 24 epochs using those positives plus 57 reviewed background-only crops with
-people, chairs, bags, and room clutter. The eight held-out box images still
-produce correct labels. An additional 15 held-out backgrounds produce no boxes.
+Version 3 adds IMG_20261007_202141.jpg and ten one-second-spaced frames from
+VID-20261008-WA0003.mp4. Only the actual blue/red blocks receive labels. The
+blue bag and person in red clothing are unlabelled background. V2's detector
+predictions were not used as ground-truth labels; every new block rectangle
+was drawn and visually checked manually.
 
-In a same-input comparison on 108 reviewed training-source backgrounds, V1
-produced false positives on four images at confidence 0.35; V2 produced none.
-Many of these backgrounds were used to train V2, so this is a regression check,
-not an independent test of unfamiliar clothing or bags. The user's specific
-red-salwar and blue-bag examples still need to be supplied and tested.
+Inspect the corrected annotation previews: [photo + frames 1–3](training-labels-v3/manual-labels-1.jpg),
+[frames 4–7](training-labels-v3/manual-labels-2.jpg), and
+[frames 8–10](training-labels-v3/manual-labels-3.jpg).
+[Exact annotation coordinates](training-labels-v3/manual-labels.json) are included.
+The rectangles tightly enclose visible block surfaces. An axis-aligned rectangle
+around an angled block can still contain background or occluding fingers at a
+corner; the person and bag are never labelled as target objects.
 
-The final epoch-24 checkpoint passed fixed 320x320 and browser checks. The
-training runner's automatic best checkpoint did not pass a fixed-shape browser
-case and was not deployed. Fixed-square validation mAP50-95 is 83.3% on this
-small set; it does not establish real-world accuracy. Browser regression checks
-also covered sustained simulated camera frames, the four known mistakes, raw
-frame downloads, and camera release. Actual phone speed for V2 remains unmeasured.
+Two bag-only and ten red-clothing-only crops were checked to contain no block
+pixels and added with empty label files. See the
+[background examples](training-labels-v3/new-negative-crops.jpg).
+All images derived from the new photo/video remain in training. The original
+held-out recordings are unchanged; adjacent frames are not split across sets.
 
-![Known background mistakes, before and after](false-positive-comparison.jpg)
+V3 was fine-tuned for 31 epochs from V2 and uses the best epoch-16 checkpoint.
+Training now has 125 images: 56 positives and 69 backgrounds. Validation has
+23 images: 8 positives and 15 backgrounds. Training-time validation now uses
+the same fixed 320x320 input as the browser.
 
-See [detailed comparison](background-comparison.json). Classes: blue_box and
-red_box. No sky class or physical dimension measurement is included.
+Python regression checks passed on all 46 selected examples. Chromium checks
+found one correctly located block in each of the 11 new positive images, with
+rectangle IoU at least 0.86 against the manual annotations. All 12 new bag/
+clothing crops produced no boxes, and the eight original held-out box images
+still passed. The original new video used as a simulated live camera produced
+58 updates: one red block per update, no extra detections or JavaScript errors.
+See [regression results](regression-results-v3.json) and
+[live-video check](live-video-check-v3.json).
+
+These new examples were used for training, so their results are regression
+checks, not independent accuracy measurements. Fixed-square validation
+mAP50-95 is 86.6% on the small original held-out set. Actual V3 phone speed and
+performance on new views remain untested here. Classes remain blue_box and
+red_box; no sky class or millimeter measurement is included.
+
+![V3 on the new video in a simulated camera feed](live-preview-v3.png)
+
+The earlier V1/V2 red-chair comparison remains available in
+[background-comparison.json](background-comparison.json) and
+[false-positive-comparison.jpg](false-positive-comparison.jpg).
 
 ## Downloads
 
 - [Trained model package](trained-box-model.zip): PyTorch weights, ONNX export,
   metrics, input/output specification, and inference instructions.
-- [YOLO dataset](yolo11-boxes-dataset.zip): 125 images with matching labels (including 72 background-only images),
+- [YOLO dataset](yolo11-boxes-dataset.zip): 148 images with matching labels (including 84 background-only images),
   separate images/ and labels/ folders, and train/validation split lists.
 
 Open a ZIP file and use GitHub's Download raw file button to download it.

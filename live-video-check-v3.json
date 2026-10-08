@@ -1,0 +1,8 @@
+{
+  "updates": 58,
+  "one_red_box": 58,
+  "no_detection": 0,
+  "extra_detections": [],
+  "scope": "Diagnostic on a video used for training; not an independent final test.",
+  "javascript_errors": []
+}
