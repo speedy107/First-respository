@@ -1,0 +1,122 @@
+[
+  {
+    "export_name": "new_v4_negative_chair_large",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/1-1000340791.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      770,
+      960
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "1-1000340791.jpg",
+    "crop_xyxy": [
+      0,
+      0,
+      770,
+      960
+    ]
+  },
+  {
+    "export_name": "new_v4_negative_chair_partial",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/2-1000340788.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      154,
+      599
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "2-1000340788.jpg",
+    "crop_xyxy": [
+      0,
+      65,
+      154,
+      664
+    ]
+  },
+  {
+    "export_name": "new_v4_negative_chair_close",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/3-1000340787.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      439,
+      970
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "3-1000340787.jpg",
+    "crop_xyxy": [
+      0,
+      280,
+      439,
+      1250
+    ]
+  },
+  {
+    "export_name": "new_v4_negative_chairs_wide",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/5-1000340785.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      435,
+      580
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "5-1000340785.jpg",
+    "crop_xyxy": [
+      0,
+      520,
+      435,
+      1100
+    ]
+  },
+  {
+    "export_name": "new_v4_negative_chair_back",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/5-1000340785.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      170,
+      355
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "5-1000340785.jpg",
+    "crop_xyxy": [
+      269,
+      540,
+      439,
+      895
+    ]
+  },
+  {
+    "export_name": "new_v4_negative_chair_foreground",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/5-1000340785.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      315,
+      472
+    ],
+    "objects": [],
+    "class_id": null,
+    "status": "manually_reviewed",
+    "source_file": "5-1000340785.jpg",
+    "crop_xyxy": [
+      0,
+      613,
+      315,
+      1085
+    ]
+  }
+]

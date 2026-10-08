@@ -1,0 +1,272 @@
+[
+  {
+    "export_name": "new_v4_1000340791",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/1-1000340791.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      1280,
+      960
+    ],
+    "objects": [
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          781,
+          361,
+          1178,
+          783
+        ]
+      }
+    ],
+    "class_id": 1,
+    "status": "manually_reviewed",
+    "source_file": "1-1000340791.jpg"
+  },
+  {
+    "export_name": "new_v4_1000340788",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/2-1000340788.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      960,
+      1280
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          157,
+          201,
+          630,
+          668
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          230,
+          573,
+          634,
+          955
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "2-1000340788.jpg"
+  },
+  {
+    "export_name": "new_v4_1000340787",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/3-1000340787.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      960,
+      1280
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          442,
+          374,
+          936,
+          839
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          470,
+          725,
+          827,
+          1068
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "3-1000340787.jpg"
+  },
+  {
+    "export_name": "new_v4_1000340785",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/5-1000340785.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      960,
+      1280
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          440,
+          573,
+          606,
+          726
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          454,
+          705,
+          579,
+          829
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "5-1000340785.jpg"
+  },
+  {
+    "export_name": "new_v4_detail_1000340791",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/1-1000340791.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      1110,
+      660
+    ],
+    "objects": [
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          651,
+          121,
+          1048,
+          543
+        ]
+      }
+    ],
+    "class_id": 1,
+    "status": "manually_reviewed",
+    "source_file": "1-1000340791.jpg",
+    "crop_xyxy": [
+      130,
+      240,
+      1240,
+      900
+    ]
+  },
+  {
+    "export_name": "new_v4_detail_1000340788",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/2-1000340788.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      500,
+      795
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          2,
+          16,
+          475,
+          483
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          75,
+          388,
+          479,
+          770
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "2-1000340788.jpg",
+    "crop_xyxy": [
+      155,
+      185,
+      655,
+      980
+    ]
+  },
+  {
+    "export_name": "new_v4_detail_1000340787",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/3-1000340787.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      508,
+      739
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          5,
+          18,
+          499,
+          483
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          33,
+          369,
+          390,
+          712
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "3-1000340787.jpg",
+    "crop_xyxy": [
+      437,
+      356,
+      945,
+      1095
+    ]
+  },
+  {
+    "export_name": "new_v4_detail_1000340785",
+    "image": "/tmp/codex-remote-attachments/01a1113d-1c57-70c4-8282-dffe424da034/98ed6aee-c740-4beb-95e5-622143ab29d4/5-1000340785.jpg",
+    "source_group": "v4_chair_stack_scene",
+    "split": "train",
+    "image_size": [
+      225,
+      315
+    ],
+    "objects": [
+      {
+        "class_id": 0,
+        "box_xyxy": [
+          30,
+          38,
+          196,
+          191
+        ]
+      },
+      {
+        "class_id": 1,
+        "box_xyxy": [
+          44,
+          170,
+          169,
+          294
+        ]
+      }
+    ],
+    "class_id": 0,
+    "status": "manually_reviewed",
+    "source_file": "5-1000340785.jpg",
+    "crop_xyxy": [
+      410,
+      535,
+      635,
+      850
+    ]
+  }
+]

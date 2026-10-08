@@ -1,0 +1,428 @@
+{
+  "confidence": 0.35,
+  "outcomes": [
+    {
+      "image": "blue_clip_01_frame_0002",
+      "expected_objects": 1,
+      "display": "1 blue box",
+      "matched_ious": [
+        0.9596088403779933
+      ]
+    },
+    {
+      "image": "blue_clip_01_frame_0003",
+      "expected_objects": 1,
+      "display": "1 blue box",
+      "matched_ious": [
+        0.9291922485904396
+      ]
+    },
+    {
+      "image": "blue_clip_01_frame_0005",
+      "expected_objects": 1,
+      "display": "1 blue box",
+      "matched_ious": [
+        0.9149800333985855
+      ]
+    },
+    {
+      "image": "blue_clip_01_frame_0007",
+      "expected_objects": 1,
+      "display": "1 blue box",
+      "matched_ious": [
+        0.9312248548659142
+      ]
+    },
+    {
+      "image": "red_clip_01_frame_0001",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9316601585113697
+      ]
+    },
+    {
+      "image": "red_clip_01_frame_0004",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8480065144773596
+      ]
+    },
+    {
+      "image": "red_clip_01_frame_0005",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9194026219292888
+      ]
+    },
+    {
+      "image": "red_clip_01_frame_0006",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8533264102495757
+      ]
+    },
+    {
+      "image": "blue_clip_01_frame_0002_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "blue_clip_01_frame_0002_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "blue_clip_01_frame_0003_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "blue_clip_01_frame_0003_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "blue_clip_01_frame_0005_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "blue_clip_01_frame_0007_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0001_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0001_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0004_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0004_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0005_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0005_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0005_negative_left",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0006_negative_top",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "red_clip_01_frame_0006_negative_bottom",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_bag_and_blue_box",
+      "expected_objects": 1,
+      "display": "1 blue box",
+      "matched_ious": [
+        0.8781694387471649
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_001",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9246099388718969
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_002",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9341601806301846
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_003",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8743796886908857
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_004",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8848883335980576
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_005",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9395701777872631
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_006",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9116300919254233
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_007",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8799557078070943
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_008",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9229694208346261
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_009",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9160157142276683
+      ]
+    },
+    {
+      "image": "new_v3_salwar_red_box_010",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9331250480615079
+      ]
+    },
+    {
+      "image": "new_v3_negative_bag_context",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_bag_close",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_001",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_002",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_003",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_004",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_005",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_006",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_007",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_008",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_009",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v3_negative_salwar_only_010",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_1000340791",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.9017131398568239
+      ]
+    },
+    {
+      "image": "new_v4_1000340788",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.9339512270424363,
+        0.9116630902785735
+      ]
+    },
+    {
+      "image": "new_v4_1000340787",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.9346245647531597,
+        0.8990432106062438
+      ]
+    },
+    {
+      "image": "new_v4_1000340785",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.9330367768088891,
+        0.7662452155649112
+      ]
+    },
+    {
+      "image": "new_v4_detail_1000340791",
+      "expected_objects": 1,
+      "display": "1 red box",
+      "matched_ious": [
+        0.8924833823404933
+      ]
+    },
+    {
+      "image": "new_v4_detail_1000340788",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.9096580852096362,
+        0.9438435003671658
+      ]
+    },
+    {
+      "image": "new_v4_detail_1000340787",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.9474956913123378,
+        0.9071299457885574
+      ]
+    },
+    {
+      "image": "new_v4_detail_1000340785",
+      "expected_objects": 2,
+      "display": "1 blue box · 1 red box",
+      "matched_ious": [
+        0.952588661994469,
+        0.8621657910452186
+      ]
+    },
+    {
+      "image": "new_v4_negative_chair_large",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_negative_chair_partial",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_negative_chair_close",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_negative_chairs_wide",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_negative_chair_back",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    },
+    {
+      "image": "new_v4_negative_chair_foreground",
+      "expected_objects": 0,
+      "display": "No box detected",
+      "matched_ious": []
+    }
+  ],
+  "passed": 60,
+  "total": 60,
+  "actual_android_tested": false
+}

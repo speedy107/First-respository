@@ -51,7 +51,51 @@ Runtime assets are vendored from onnxruntime-web@1.20.1 on npm; its MIT license
 is included in vendor/ONNX-Runtime-LICENSE.txt. The model was trained using
 Ultralytics YOLO11; see https://www.ultralytics.com/license for its license.
 
-## Model v3: blue bag and red-clothing examples
+## Model v4: red chairs and stacked blocks
+
+V4 adds four unique photos from the five uploads; 1000340786.jpg is an exact
+SHA256 duplicate of 1000340787.jpg and was excluded. Each physical block is
+labelled separately: seven manual rectangles in four scenes. Three scenes show
+blue-over-red stacks, including a distant view. Chairs remain unlabelled.
+
+[Review the manual annotations](training-labels-v4/manual-labels.jpg) and
+[exact coordinates](training-labels-v4/manual-labels.json). The rectangles cover
+visible surfaces; the hidden portion of an occluded red block is not invented.
+An axis-aligned envelope can contain the foreground blue block or background
+at its corners. These are separate object labels, not pixel masks.
+
+Four detail crops keep the correctly transformed block labels. Six manually
+reviewed [chair-only crops](training-labels-v4/chair-negatives.jpg) have empty
+labels and contain no block pixels. All derivatives of the new scene stay in
+training. The original held-out recordings are unchanged.
+
+Training: 139 images (64 positive images, 75 backgrounds). Validation: 23 images
+(8 positive images, 15 backgrounds). Fine-tuning completed 33 epochs from V3.
+Epoch 31 was selected because it passed every required regression and had the
+highest held-out mAP50-95 among the passing checkpoints. Validation uses the
+same fixed-square 320x320 input as the browser.
+
+V3 passed 56/60 regression images at 35% confidence; V4 passes 60/60 at both
+25% and 35%. The check matches each labelled block individually and rejects
+extra detections. Chromium also passes all 60 at the default 35% threshold:
+the three original stacked views each display one blue box and one red box,
+all six chair-only crops display no boxes, and previous bag/clothing examples
+and the original validation images still pass. New-photo rectangle overlap
+with manual labels is at least 0.76 IoU. Camera start/stop, Save frame, error
+handling, and the earlier chair regressions also pass.
+
+See [Python results](regression-results-v4.json),
+[browser results](browser-results-v4.json), and the
+[before/after predictions](prediction-comparison-v4.jpg).
+
+The new examples were used for training; these are regression checks, not
+independent accuracy measurements. The original small held-out set has
+mAP50-95 of 86.5% (V3: 86.6%). New chairs, new stack arrangements and actual
+Android performance still need testing. No physical dimensions are measured.
+
+![V4 detecting separate stacked blocks in the browser](stack-preview-v4.png)
+
+## Previous model v3: blue bag and red-clothing examples
 
 Version 3 adds IMG_20261007_202141.jpg and ten one-second-spaced frames from
 VID-20261008-WA0003.mp4. Only the actual blue/red blocks receive labels. The
@@ -103,7 +147,7 @@ The earlier V1/V2 red-chair comparison remains available in
 
 - [Trained model package](trained-box-model.zip): PyTorch weights, ONNX export,
   metrics, input/output specification, and inference instructions.
-- [YOLO dataset](yolo11-boxes-dataset.zip): 148 images with matching labels (including 84 background-only images),
+- [YOLO dataset](yolo11-boxes-dataset.zip): 162 images with matching labels (including 90 background-only images),
   separate images/ and labels/ folders, and train/validation split lists.
 
 Open a ZIP file and use GitHub's Download raw file button to download it.

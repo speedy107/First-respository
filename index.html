@@ -7,7 +7,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 <script defer src="vendor/ort.wasm.min.js"></script>
-<script type="module" src="app.js?v=3"></script>
+<script type="module" src="app.js?v=4"></script>
 </head>
 <body>
 <main>
@@ -26,7 +26,7 @@
  <div class="threshold"><label for="confidence">Minimum confidence <output id="confidenceValue">35%</output></label><input id="confidence" type="range" min="10" max="90" value="35" step="5"><p>Lower this if boxes are missed. Raise it if other objects are labeled.</p></div>
 </section>
 <div id="status" role="status" aria-live="polite">Camera permission is requested only when you start.</div>
-<footer><p>The first start downloads about 22 MB for the model and runtime. Processing then runs locally.</p><p>Model v3 includes bags and red clothing as background examples. Save frame captures an unannotated image for reviewing mistakes. New scenes may still produce errors; dimensions are not measured.</p><a href="https://github.com/speedy107/First-respository">Model & dataset on GitHub ↗</a></footer>
+<footer><p>The first start downloads about 22 MB for the model and runtime. Processing then runs locally.</p><p>Model v4 adds stacked blocks and red-chair background examples, alongside bags and red clothing. Save frame captures an unannotated image for reviewing mistakes. New scenes may still produce errors; dimensions are not measured.</p><a href="https://github.com/speedy107/First-respository">Model & dataset on GitHub ↗</a></footer>
 </main>
 </body>
 </html>
